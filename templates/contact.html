@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Cirrhosis Predictor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: url("/static/bg.jpg") no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: rgba(30, 30, 30, 0.5);
+            padding: 1em;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            backdrop-filter: blur(8px);
+        }
+
+        nav a {
+            margin: 0 1em;
+            color: #00bcd4;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ff5252;
+        }
+
+        .content {
+            flex: 1;
+            padding: 3em 2em;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .content h2 {
+            text-align: center;
+            margin-bottom: 1em;
+            font-size: 2em;
+            text-shadow: 0 0 8px rgba(255, 0, 0, 0.8); /* strong red glow */
+        }
+
+        .content p {
+            font-size: 1.1em;
+            line-height: 1.7;
+            color: #ddd;
+            margin-bottom: 1.2em;
+            text-shadow: 0 0 3px rgba(255, 0, 0, 0.4); /* subtle red glow */
+        }
+
+        .contact-info {
+            margin-top: 2em;
+            text-align: center;
+        }
+
+        .contact-info a {
+            color: rgba(255, 0, 0, 0.842);
+            text-shadow: 0 0 2px rgba(247, 242, 242, 0.774);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+            color: #ff4d4d; /* optional brighter red on hover */
+        }
+
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: rgba(30, 30, 30, 0.7);
+            color: #888;
+            font-size: 0.9em;
+            margin-top: auto;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                padding: 2em 1em;
+            }
+
+            nav a {
+                margin: 0 0.6em;
+                font-size: 0.95em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .content h2 {
+                font-size: 1.6em;
+            }
+
+            .content p {
+                font-size: 1em;
+            }
+        }
+        h3 {
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3>Contact Us</h3>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/form">Predict</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h2>Get in Touch</h2>
+        <p>
+            Have questions about the Cirrhosis Prediction project, model accuracy, or collaboration opportunities?
+            We'd love to hear from you.
+        </p>
+        <p>
+            Reach out using the details below or connect with us through our social media channels.
+        </p>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:support@cirrhosispredictor.com">support@cirrhosispredictor.com</a></p>
+            <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Cirrhosis Prediction App. All rights reserved.
+    </footer>
+</body>
+</html>
