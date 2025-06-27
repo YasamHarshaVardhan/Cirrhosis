@@ -22,7 +22,7 @@
     <div class="result-container">
         <h2>Prediction Result</h2>
         <p><strong>Predicted:</strong> {{ 'Yes' if prediction == 1 else 'No' }}</p>
-        <p><strong>Interpretation:</strong> {{ interpretation }}</p>
+        <p><strong>Interpretation:</strong> {{ interpretation.replace('(Stage 0)', '').replace('(Stage 1)', '') }}</p>
         <a class="button-link" href="/form">🔁 Predict Again</a>
     </div>
 
