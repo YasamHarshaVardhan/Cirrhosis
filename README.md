@@ -1,4 +1,4 @@
-# Liver Care - ML + Flask Web Application
+# Cirrhosis - ML + Flask Web Application
 
 Liver Care is a machine learning-powered Flask web application designed to predict the stage of liver disease based on various clinical and biological parameters.
 
