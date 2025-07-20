@@ -24,9 +24,9 @@ liver-care/
 │   └── index.html              # Main form UI
 │
 ├── app.py                      # Flask application backend
-├── model/
-│   ├── best_rf_model.pkl       # Trained RandomForest model
-│   └── normalizer.pkl          # Preprocessing normalizer
+├── best_rf_model.pkl            # Trained RandomForest model
+├── normalizer.pkl               # Preprocessing normalizer
+│             
 │
 ├── dataset/
 │   └── liver_dataset.csv       # (Optional) Raw dataset used for training
