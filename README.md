@@ -18,21 +18,22 @@ liver-care/
 │
 ├── static/
 │   └── css/
-│       └── style.css           # Frontend styling
+│       └── about.css           # Frontend styling
+│       └── contact.css           
+│       └── home.css           
+│       └── index.css           
+│       └── result.css           
 │
 ├── templates/
-│   └── index.html              # Main form UI
+│   └── about.html              # Main form UI
+│   └── contact.html
+│   └── home.html
+│   └── index.html
+│   └── result.html
 │
 ├── app.py                      # Flask application backend
 ├── best_rf_model.pkl            # Trained RandomForest model
-├── normalizer.pkl               # Preprocessing normalizer
-│             
-│
-├── dataset/
-│   └── liver_dataset.csv       # (Optional) Raw dataset used for training
-│
-├── README.md                   # Project overview
-└── requirements.txt            # Python dependencies
+└── normalizer.pkl               # Preprocessing normalizer
 ```
 
 ## 🛠 Setup Instructions
