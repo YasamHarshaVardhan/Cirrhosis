@@ -31,7 +31,7 @@ Cirrhosis/
 │   └── index.html
 │   └── result.html
 │
-├── app.py                      # Flask application backend
+├── app.py                       # Flask application backend
 ├── best_rf_model.pkl            # Trained RandomForest model
 └── normalizer.pkl               # Preprocessing normalizer
 ```
