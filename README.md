@@ -14,7 +14,7 @@ Liver Care is a machine learning-powered Flask web application designed to predi
 ## 📁 Project Structure
 
 ```
-liver-care/
+Cirrhosis/
 │
 ├── static/
 │   └── css/
